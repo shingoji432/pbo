@@ -1,0 +1,18 @@
+//Kalkulator Java
+//Muhammad Iqbal
+//A11.2021.13691
+
+package bangun;
+
+public class segitiga {
+	public static void main(String[] args){
+        int a, t, l;
+        a = 6;
+        t = 8;
+        System.out.println("Kalkulator Luas Segitiga Siku-Siku");
+        System.out.println("Alas = " + a);
+        System.out.println("Tinggi = " + t);
+        l = a * t / 2;
+        System.out.print("Luas Segitiga = " + l);
+    }
+}
