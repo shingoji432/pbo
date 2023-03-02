@@ -1,0 +1,16 @@
+// Kalkulator Java
+// Muhammad Iqbal
+// A11.2021.13691
+
+package bangun;
+
+public class lingkaran {
+	public static void main(String[] args){
+        double d, kl;
+        d = 10;
+        System.out.println("Kalkulator Keliling Lingkaran");
+        System.out.println("Diameter = " + d);
+        kl = d * 3.14;
+        System.out.print("Keliling Lingkaran = " + kl);
+    }
+}
