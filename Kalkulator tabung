@@ -1,0 +1,19 @@
+// Kalkulator Java
+// Muhammad Iqbal
+// A11.2021.13691
+
+
+package bangun;
+
+public class tabung {
+	public static void main(String[] args){
+        double d, r, la, t, v;
+        d = 5;
+        t = 10;
+        System.out.println("Kalkulator Volume Tabung");
+        System.out.println("Diameter = " + d);
+        System.out.println("Tinggi = " + t);
+        v  = (3.14 * (d / 2) * (d / 2)) * t;
+        System.out.print("Volume Tabung = " + v);
+    }
+}
