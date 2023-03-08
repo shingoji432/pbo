@@ -1,0 +1,14 @@
+package Lampu;
+
+public class Lampu {
+	//atribut
+	boolean nyala;
+	
+	//method
+	boolean nyalakanLampu() {
+		return nyala = true;
+	}
+	boolean matikanLampu() {
+		return nyala = false;
+	}
+}
