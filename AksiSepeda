@@ -1,0 +1,19 @@
+package Sepeda;
+
+public class AksiSepeda {
+	public static void main(String[] args) {
+		//membuat objek
+		Sepeda sepedaBalap = new Sepeda(2, "balap", "Genio");
+		
+		//akses atribut & method
+		int gearSepedaBalap = sepedaBalap.gear;
+		System.out.println("Jumlah Gear "+gearSepedaBalap);
+		sepedaBalap.rem();
+		
+		//objek 2
+		Sepeda sepedaAnak = new Sepeda(2, "anak", "Wimcycle");
+		int gearSepedaAnak = sepedaAnak.gear;
+		System.out.println("Jumlah Gear "+gearSepedaAnak);
+		sepedaAnak.rem();
+	}
+}
