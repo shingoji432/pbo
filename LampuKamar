@@ -1,0 +1,10 @@
+package Lampu;
+
+public class LampuKamar {
+	public static void main(String[] args) {
+		Lampu lampuKamarku = new Lampu();
+		boolean lampuNyala = lampuKamarku.nyalakanLampu();
+		boolean lampuMati = lampuKamarku.matikanLampu();
+		System.out.println("Apakah Lampu Menyala? "+lampuMati);
+	}
+}
