@@ -1,0 +1,17 @@
+package Sepeda;
+
+public class Sepeda{
+	//atribut
+    int gear = 5;
+
+    //method
+    
+    void rem() {
+        System.out.println("Sepeda direm");
+    }
+    
+    //konstruktor
+    Sepeda(int jumlahRoda, String jenis, String merk){
+    	System.out.println("Sepeda "+jenis+" Bermerk "+merk+" Memiliki jumlah roda "+jumlahRoda);
+    }
+}
