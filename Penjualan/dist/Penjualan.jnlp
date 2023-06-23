@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Penjualan.jnlp">
+  <information>
+    <title>Penjualan</title>
+    <vendor>ASUS</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Penjualan.jar" size="10338" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="penjualan.Penjualan"  name="Penjualan" />
+  <update check="always"/>
+</jnlp>
